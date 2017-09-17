@@ -1,20 +1,16 @@
-{% set name = "MDAnalysis" %}
-{% set version = "0.16.2" %}
-{% set sha256 = "407d9a9ff1ab8a5e47973714d06fabff220f8d08a28792dee93e88e70e995b0a" %}
+{% set name = "MDAnalysis-nightly" %}
+{% set version = "0.17.0dev" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  git_url: https://github.com/MDAnalysis/mdanalysis
+  git_branch: develop
 
 build:
-  number: 2
-  skip: True  # [py3k or win]
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
 
 requirements:
   build:
