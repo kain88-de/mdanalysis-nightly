@@ -1,4 +1,4 @@
-{% set name = "MDAnalysis-nightly" %}
+{% set name = "MDAnalysis" %}
 {% set version = "0.17.0dev" %}
 
 package:
