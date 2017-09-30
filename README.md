@@ -24,8 +24,8 @@ Current build status
 ====================
 Linux: [![Circle CI](https://circleci.com/gh/kain88-de/mdanalysis-nightly.svg?style=shield)](https://circleci.com/gh/kain88-de/mdanalysis-nightly)
 OSX: [![TravisCI](https://travis-ci.org/kain88-de/mdanalysis-nightly.svg?branch=master)](https://travis-ci.org/kain88-de/mdanalysis-nightly)
-Current release info-
 
+Current release info
 ====================
 Version: [![Anaconda-Server Badge](https://anaconda.org/kain88-de/mdanalysis/badges/version.svg)](https://anaconda.org/kain88-de/mdanalysis)
 Downloads: [![Anaconda-Server Badge](https://anaconda.org/kain88-de/mdanalysis/badges/downloads.svg)](https://anaconda.org/kain88-de/mdanalysis)
