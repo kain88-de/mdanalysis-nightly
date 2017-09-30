@@ -24,11 +24,11 @@ Current build status
 ====================
 Linux: [![Circle CI](https://circleci.com/gh/kain88-de/mdanalysis-nightly.svg?style=shield)](https://circleci.com/gh/kain88-de/mdanalysis-nightly)
 OSX: [![TravisCI](https://travis-ci.org/kain88-de/mdanalysis-nightly.svg?branch=master)](https://travis-ci.org/kain88-de/mdanalysis-nightly)
-Current release info
+Current release info-
 
-<!-- ==================== -->
-<!-- Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mdanalysis/badges/version.svg)](https://anaconda.org/conda-forge/mdanalysis) -->
-<!-- Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mdanalysis/badges/downloads.svg)](https://anaconda.org/conda-forge/mdanalysis) -->
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/kain88-de/mdanalysis/badges/version.svg)](https://anaconda.org/kain88-de/mdanalysis)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/kain88-de/mdanalysis/badges/downloads.svg)](https://anaconda.org/kain88-de/mdanalysis)
 
 Installing mdanalysis
 =====================
@@ -39,7 +39,7 @@ Installing `mdanalysis` from the `kain88-de` channel can be achieved by adding `
 conda config --add channels kain88-de conda-forge
 ```
 
-Once the `kain88-de` channel has been enabled, `mdanalysis` can be installed with:
+Once the `kain88-de and conda-forge` channels has been enabled, `mdanalysis` can be installed with:
 
 ```
 conda install mdanalysis
