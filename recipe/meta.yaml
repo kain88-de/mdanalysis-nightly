@@ -10,7 +10,7 @@ source:
   git_branch: develop
 
 build:
-  number: 6
+  number: 7
 
 requirements:
   build:
