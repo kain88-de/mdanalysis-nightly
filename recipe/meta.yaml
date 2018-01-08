@@ -10,7 +10,7 @@ source:
   git_branch: develop
 
 build:
-  number: 7
+  number: 8
 
 requirements:
   build:
@@ -25,6 +25,7 @@ requirements:
     - scipy
     - numpy >=1.10.4
     - matplotlib
+    - gsd
     - seaborn
     - netcdf4
     - biopython
