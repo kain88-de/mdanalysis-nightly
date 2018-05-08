@@ -1,5 +1,5 @@
 {% set name = "MDAnalysis" %}
-{% set version = "0.17.1dev" %}
+{% set version = "0.18.1dev" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +10,7 @@ source:
   git_branch: develop
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
